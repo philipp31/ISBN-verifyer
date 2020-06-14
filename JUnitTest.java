@@ -41,7 +41,9 @@ class JUnitTest {
 		assertTrue(testObj.getCorrectControllNum() == completeISBN[completeISBN.length-1]);		// Hier für eine richtige Kontrollziffer, aber auch falsche leich testbar
 	}
 	
-	// Durch diesen Test-Bereich lassen sich leicher automatisiert ISBN-Nummer angeben, wenn man viele Nummern hat und schon weiß, ob die Prüfziffer korrekt ist oder nicht
+	/*Durch diesen Test-Bereich lassen sich leicht automatisiert ISBN-Nummer 
+	befüllen und testen(wenn man sie den Code leicht anpasst), wenn man viele Nummern hat 
+	und schon weiß, ob die Prüfziffer korrekt ist oder nicht*/
 
 // Da diese Methode als static in der Main-Klasse definiert wurde, musste Sie leider nochmal hier angegeben werden:
 	private int[] stringToInt(String isbn) {
